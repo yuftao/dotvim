@@ -7,6 +7,7 @@ call pathogen#helptags()
 "syntax below is best for mac-vim
 syntax enable
 set background=dark
+let g:solarized_termcolors=256
 colorscheme solarized
 
 "syntac below is for other *nix system
