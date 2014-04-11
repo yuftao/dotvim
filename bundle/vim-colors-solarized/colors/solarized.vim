@@ -208,7 +208,7 @@ endfunction
 if ($TERM_PROGRAM ==? "apple_terminal" && &t_Co < 256)
     let s:solarized_termtrans_default = 1
 else
-    let s:solarized_termtrans_default = 0 
+    let s:solarized_termtrans_default = 0
 endif
 call s:SetOption("termtrans",s:solarized_termtrans_default)
 call s:SetOption("degrade",0)
