@@ -4,6 +4,12 @@ call pathogen#helptags()
 "*****************************
 "for color scheme solarized
 "*****************************
+
+"This line is used to fix the background issue on linux
+"This line need to be added before calling the colorscheme
+let g:solarized_termtrans = 1
+
+
 "syntax below is best for mac-vim
 syntax enable
 set background=dark
@@ -26,3 +32,4 @@ set shiftwidth=4
 "a combination of spaces and tabs are used to simulate tab stops at a width
 "other than the (hard)tabstop
 set softtabstop=4
+
